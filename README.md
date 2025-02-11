@@ -172,6 +172,21 @@ git push -u origin main
 
 ---
 
+## 📌 Step 7: Re-run actions
+
+- Go To **Actions → choose a failed deployment → Re-run failed jobs.**
+- Wait until in finishes.
+
+---
+
+## 📌 Step 8: Configure GitHub Pages:
+
+- Go to **Settings → Pages**
+- Under Source, choose "Deploy from branch" and select the "gh-pages" branch.
+- Click Save.
+
+---
+
 ## Project Structure
 
 ```
