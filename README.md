@@ -52,8 +52,9 @@ export default defineConfig({
   },
   base: '/deploy-vite-react-gh-pages/', // Change this to your GitHub repo name
 });
-
 ```
+
+- Now server runs on `https://localhost:3000/deploy-vite-react-gh-pages`
 
 ---
 
@@ -177,13 +178,27 @@ git push -u origin main
 - Go To **Actions → choose a failed deployment → Re-run failed jobs.**
 - Wait until in finishes.
 
+![Re-run actions](public/re-run-actions.jpg)
+
 ---
 
 ## 📌 Step 8: Configure GitHub Pages:
 
 - Go to **Settings → Pages**
-- Under Source, choose "Deploy from branch" and select the "gh-pages" branch.
-- Click Save.
+- Under Source, choose **Deploy from branch** and select the **gh-pages** branch.
+- Click **Save**.
+
+![GitHub Pages](public/github-pages.jpg)
+
+---
+
+## 📌 Step 9: Live Site:
+
+- **Now you can see a live site through** `https://YOUR_GITHUB_USERNAME.github.io/REPO_NAME/`
+
+- Replace this with your github name and repo name.
+
+- [Live Site](https://abdelaziz-mohammed.github.io/deploy-vite-react-gh-pages/)
 
 ---
 
@@ -208,7 +223,14 @@ git push -u origin main
 │── README.md
 ```
 
+---
 
+## Author
+
+**Eng. Abdelaziz Mohamed**
+
+- [LinkedIn](https://www.linkedin.com/in/abdelaziz)
+- [GitHub](https://github.com/Abdelaziz-Mohammed)
 
 
 
