@@ -121,7 +121,7 @@ jobs:
 
 ## 📌 Step 4: Create a new repository on GitHub:
 
-![Create New Repo](images/create-new-repo.jpg)
+![Create New Repo](public/images/create-new-repo.jpg)
 
 ---
 
@@ -143,27 +143,17 @@ git push -u origin main
 ```
 
 We’ve just successfully pushed our project to GitHub:
-![Successful Push](images/successful-push.jpg)
+![Successful Push](public/images/successful-push.jpg)
 
 ---
 
 ## 📌 Step 6: On Your Repo Page:
-- Go to your GitHub repository page.
-- Click on the "Actions" tab.
-- You should see the workflow running.
-- Once the workflow is complete, you should see a green checkmark next to the workflow run.
-- Click on the workflow run to view the logs.
-- You should see the deployment of your Vite React app to GitHub Pages.
-- Go to your GitHub Pages URL to view your deployed app.
-- You should see your Vite React app running on GitHub Pages.
-- You can now access your app by visiting the GitHub Pages URL.
-- You can also access your app by visiting the GitHub repository page and clicking on the "Pages"
 
 - Go to Settings → Actions → General,
 Scroll down to Workflow Permissions,
 Choose Read and Write, and save:
 
-![Read and Write Permissions](images/read-write-permissions.jpg)
+![Read and Write Permissions](public/images/read-write-permissions.jpg)
 
 
 
