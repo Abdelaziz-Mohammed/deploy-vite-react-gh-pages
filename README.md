@@ -200,7 +200,7 @@ git push -u origin main
 
 - [Live Site](https://abdelaziz-mohammed.github.io/deploy-vite-react-gh-pages/)
 
-[Live Site](public/images/live-site.jpg)
+![Live Site](public/images/live-site.jpg)
 
 ---
 
