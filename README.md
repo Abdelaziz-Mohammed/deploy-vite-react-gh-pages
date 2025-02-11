@@ -11,8 +11,9 @@ This guide walks you through deploying a **Vite React app** to **GitHub Pages** 
 ## 📌 Step 1: Install Vite and Create a React Project
 
 1. **Create a new Vite project**
+-Make sure the project folder has the same name as your REPO_NAME
+
 ```bash
-# Make sure the project folder has the same name as your REPO_NAME
 npm create vite@latest
 ```
 
@@ -38,10 +39,9 @@ npm run dev
 
 ## 📌 Step 2: Configure Vite for GitHub Pages
 
-- Modify vite.config.js to set the correct base URL:
+- Modify `vite.config.js` to set the correct base URL:
 
 ```js
-// vite.config.js
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -62,7 +62,7 @@ export default defineConfig({
 - Create a `.github/workflows/deploy.yml` file:
 
 ```yml
-# .github/workflows/deploy.yml
+
 name: Deploy
 
 on:
@@ -120,8 +120,10 @@ jobs:
 ---
 
 ## 📌 Step 4: Create a new repository on GitHub:
+-Make sure it is the same as your local project name
 
 ![Create New Repo](public/images/create-new-repo.jpg)
+
 
 ---
 
@@ -129,41 +131,46 @@ jobs:
 
 ```bash
 git init
+```
 
+```bash
 git add .
+```
 
+```bash
 git commit -m "first commit"
+```
 
+```bash
 git branch -M main 
+```
 
-# Replace with your username and repo URL
+- Replace with your username and repo URL
+
+```bash
 git remote add origin https://github.com/Abdelaziz-Mohammed/deploy-vite-react-gh-pages.git
+```
 
+```bash
 git push -u origin main
 ```
 
-We’ve just successfully pushed our project to GitHub:
+
+- We’ve just successfully pushed our project to GitHub:
+
 ![Successful Push](public/images/successful-push.jpg)
 
 ---
 
 ## 📌 Step 6: On Your Repo Page:
 
-- Go to Settings → Actions → General,
-Scroll down to Workflow Permissions,
-Choose Read and Write, and save:
+- Go to **Settings → Actions → General**,
+- Scroll down to **Workflow Permissions**,
+- Choose **Read and Write Permissions**, and **save**:
 
 ![Read and Write Permissions](public/images/read-write-permissions.jpg)
 
-
-
-
-
-
-
-
-
-
+---
 
 ## Project Structure
 
@@ -185,3 +192,12 @@ Choose Read and Write, and save:
 │── package.json
 │── README.md
 ```
+
+
+
+
+
+
+
+
+
