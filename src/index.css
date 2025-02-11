@@ -4,7 +4,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 95vh;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
