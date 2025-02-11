@@ -178,7 +178,7 @@ git push -u origin main
 - Go To **Actions → choose a failed deployment → Re-run failed jobs.**
 - Wait until in finishes.
 
-![Re-run actions](public/re-run-actions.jpg)
+![Re-run actions](public/images/re-run-actions.jpg)
 
 ---
 
@@ -188,7 +188,7 @@ git push -u origin main
 - Under Source, choose **Deploy from branch** and select the **gh-pages** branch.
 - Click **Save**.
 
-![GitHub Pages](public/github-pages.jpg)
+![GitHub Pages](public/images/github-pages.jpg)
 
 ---
 
@@ -199,6 +199,8 @@ git push -u origin main
 - Replace this with your github name and repo name.
 
 - [Live Site](https://abdelaziz-mohammed.github.io/deploy-vite-react-gh-pages/)
+
+[Live Site](public/images/live-site.jpg)
 
 ---
 
@@ -231,10 +233,4 @@ git push -u origin main
 
 - [LinkedIn](https://www.linkedin.com/in/abdelaziz)
 - [GitHub](https://github.com/Abdelaziz-Mohammed)
-
-
-
-
-
-
 
